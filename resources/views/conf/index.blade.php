@@ -34,5 +34,12 @@
         </div>
         <br><br>
         <button type="submit">Отправить</button>
+
+        @if($errors->any())
+            <div style="color: red">
+                {{ $errors->first() }}
+            </div>
+        @endif
+        </div>
     </form>
 @endsection

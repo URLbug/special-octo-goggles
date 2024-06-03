@@ -41,6 +41,7 @@ class ConfController extends Controller
         $data['has_report'] = $data['report'] ?? null;
         $data['has_report'] = $data['has_report'] == 'on';
         $data['report_theme'] = $data['report-theme'];
+        $data['birth_date'] = $data['birth-date'];
 
         Conf::create($data);
 

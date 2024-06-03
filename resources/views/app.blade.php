@@ -16,8 +16,8 @@
             <nav>
                 <ul>
                     <li><a href="{{ route('home') }}">Главная</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="{{ route('conf') }}">Регистрация участников конференции</a></li>
+                    <li><a href="{{ route('gallery') }}">Фотогаллерея</a></li>
                     <li><a href="#">Прайс-лист</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>

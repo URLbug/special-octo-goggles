@@ -148,3 +148,44 @@ button[type="submit"]:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Центрируем форму на странице */
+.registration-form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для полей ввода */
+.registration-form input[type="text"], 
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Стили для переключателя */
+.registration-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Стили для кнопки отправки */
+.registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Стили для ошибок */
+.error {
+    color: red;
+    font-size: 12px;
+}

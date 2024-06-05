@@ -1,5 +1,5 @@
 @extends('app')
 
 @section('content')
-    о Вас
+    Делал разработчик: Фетисов С. И. из группы Прог-С-21
 @endsection
